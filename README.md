@@ -1,2 +1,4 @@
 # Project_2--Landing-Page----HTML-and-CSS
-This is a 2 Odin Project called "THe landing Page"
+<h1>The Landing Page</h1>
+<h2>Description</h2>
+This is a second webside done for The Odin Project. It will feature HTML, CSS (including Flexbox).
