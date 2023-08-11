@@ -14,8 +14,11 @@ body {
 }
 
 /* navigation menu */ 
-.active {
-    background-color: #3882F6;
+.navigation {
+    background-color: #1F2937;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 .link-container {
     display: flex;
@@ -23,13 +26,14 @@ body {
 }
 .nav-container {
     display: flex;
+    
 }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #1F2937;
+    
 }
 li a {
     display: block;
@@ -44,11 +48,59 @@ a:hover {
 .logo {
     font-weight: 600;
 }
-/* adding sticky to navigation */
-ul {
-    position: fixed;
-    top: 0;
-    width: 100%;
+.active {
+    background-color: #3882F6;
+}
+
+/* hero area */
+
+.hero {
+    background-color: #4a586b;   
+    margin-top: 62px;
+    padding: 20px 0;
+}
+.hero-container {
+    display: flex;
+}
+.hero-container div {
+    padding: 10px;
+}
+h1 {
+    margin: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+button {
+    background-color: #3882F6;
+    border: 0px;
+    padding: 10px;
+}
+button:hover {
+    background-color: white;
+    color: #1F2937;
+}
+
+/*main content */
+main {
+    padding: 10px;
+}
+
+/*first section */
+h2 {
+    text-align: center;
+}
+.section-container {
+    display: flex;
+    justify-content: space-between;
+}
+.section-container div {
+    padding: 10px;
+}
+.section-container img {
+    max-width: 100%;
+    height: auto;
 }
 
 
