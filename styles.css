@@ -44,6 +44,12 @@ a:hover {
 .logo {
     font-weight: 600;
 }
+/* adding sticky to navigation */
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
 
 
 
